@@ -1,0 +1,15 @@
+{
+  "name": "the-seventh-district",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server www -p 8080",
+    "sync": "npx cap sync android",
+    "android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/core": "^7.4.0",
+    "@capacitor/cli": "^7.4.0"
+  }
+}
